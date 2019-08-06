@@ -1,6 +1,8 @@
 def find_element_index(array, value_to_find)
-until value = value_to_find
-end
+count = 0 
+until array[count] = value_to_find
+  count += 1 
+  
 
 def find_max_value(array)
   new_array = array.sort 
