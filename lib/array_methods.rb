@@ -3,7 +3,7 @@ count = 0
 if array[count] != value_to_find
   count += 1 
 elsif array[count] == value_to_find
-  return 
+  return value_to_find.index
 
 end
 
