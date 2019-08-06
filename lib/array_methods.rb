@@ -4,7 +4,7 @@ if array[count] != value_to_find
   count += 1 
 elsif array[count] == value_to_find
   return value_to_find.index
-
+else return nil 
 end
 
 def find_max_value(array)
